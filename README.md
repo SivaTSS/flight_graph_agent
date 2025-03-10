@@ -1,6 +1,6 @@
 # Flight Graph Insights: A Divide-and-Conquer Strategy
 
-This project demonstrates an end-to-end workflow for analyzing flight data as a graph using a combination of ArangoDB, NetworkX, LangChain, and LangGraph. In addition, the notebook integrates an interactive user interface using Gradio, allowing users to input natural language queries and receive both textual answers and visualizations.
+This project demonstrates an end-to-end workflow for analyzing flight data as a graph using a combination of ArangoDB, NetworkX, LangChain, and LangGraph. In addition, the notebook integrates an interactive user interface using Gradio, allowing users to input natural language queries and receive both textual answers and visualizations. A CUDA-enabled version of the notebook is also available, which has been successfully run in a collaborative setting and leverages GPU acceleration for enhanced performance.
 
 ![Flight Graph](images/intro_flights.png)
 
@@ -26,7 +26,7 @@ The notebook covers:
 - **Hybrid Mode:** Breaking down complex queries into smaller sub-tasks, processing them, and then synthesizing a final answer.
 - **Visualization:** Generating visual plots using matplotlib based on query results.
 - **User Interface:** A Gradio-based UI that displays the final answer, internal logs (detailing the chain-of-thought and execution steps), and generated visualizations.
-
+- **GPU Acceleration:** Google collab was used to run a GPU accelerated version of the notebook.
 ## Architecture
 
 **Query Agent Setup:**
